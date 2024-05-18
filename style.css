@@ -1,0 +1,169 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: #fce1e4;
+}
+
+h1 {
+  color: rgb(0, 0, 0);
+  font-size: 60px;
+  padding-bottom: 0px;
+  margin-bottom: 20px
+}
+
+#webfolio {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.centered {
+  text-align: center;
+}
+
+.button {
+  background-color: #fce1e4;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 4px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 25px;
+  margin: 0px 2px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #fce1e4;
+  color: rgb(255, 122, 193);
+  border-radius: 10px;
+}
+
+.button:active {
+  color: rgb(255, 77, 172);
+}
+
+.photo {
+  height: 50px;
+  align-content: right;
+}
+
+.line {
+  width: 70%;
+  border-top: 2px solid black;
+  margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.image {
+    margin-top: 50px;
+    flex: 1; 
+}
+
+.text {
+    flex: 1; 
+    padding: 0 20px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.about {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 100px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.home {
+  padding-left: 100px;
+  padding-right: 100px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#back-up {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  padding: 4px 20px;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+#back-up:hover {
+  background-color: rgb(255, 122, 193);
+}
+
+.contact {
+  padding-left: 100px;
+  padding-right: 100px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.projects {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 100px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.table {
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 50px;
+  font-size: 20px;
+}
+
+table {
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+  padding: 10px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+a {
+  text-decoration: none;
+  color: #3498db;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.surprise {
+  padding-top: 1000px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 50px;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+}
+
+.filler {
+  padding-top: 100px;
+  padding-bottom: 1000px;
+  font-family: 'Courier New', Courier, monospace;
+  color: #000000;
+  text-align: center;
+}
